@@ -6,5 +6,7 @@ module "release" {
   source  = "farrukh90/release/helm"
   name    = "testapplication"
   namespace = "testapp"
+  values_yaml = <<EOF
+EOF
 }
 ```
